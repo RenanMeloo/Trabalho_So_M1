@@ -17,6 +17,8 @@ def tratar_requisicao(conn, banco):
             banco.delete(int(partes[1]))
         elif partes[0] == "SELECT":
             banco.select(int(partes[1]))
+        elif partes[0] == "EDIT":
+            banco.edit(int(partes[1]), partes[2])
         else:
             print("[SERVIDOR] Comando inválido")
 

@@ -3,18 +3,8 @@ import time
 
 def cliente2(conn):
     comandos = [
-        "INSERT 1 João",
-        "INSERT 2 Maria",
-        "DELETE 1",
-        "SELECT 2",
-        "INSERT 1 João",
-        "INSERT 2 Maria",
-        "DELETE 1",
-        "SELECT 2",
-        "INSERT 1 João",
-        "INSERT 2 Maria",
-        "DELETE 1",
-        "SELECT 2"
+        'INSERT 1 Joao',
+        "SELECT 1"
     ]
 
     for cmd in comandos:
